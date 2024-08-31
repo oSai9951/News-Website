@@ -17,10 +17,9 @@
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
-    z-index: -100;
-  animation: news 2s linear;
+    z-index: 0;
+  animation: news 1s linear;
   
- animation-timeline: view();
  animation-range: entry 0% cover 30%;
   }
   
