@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container {
+    font-family: "BioRhyme", serif;
+    width: 70%;
+    margin: 0 auto;
+
+
+    background-color: rgba(0, 0, 0, 0.83);
+    height: auto;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.form {
+
+    background-color: rgb(176, 216, 251);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 10%;
+    padding: 50px 0 50px 10%;
+    gap: 5px;
+    margin: auto;
+    padding-top: 50px;
+    height: auto;
+}
+
+.label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.input {
+    height: 2.5rem;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 3px solid rgba(22, 21, 21, 0.548);
+    text-align: center
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px 0 25px 0;
+    color: azure;
+}
+
+.inputError {
+    color: red;
+    margin-top: -5px;
+}
+
+.signup {
+    background-color: rgb(51, 208, 51);
+    text-align: center;
+    height: 50px;
+    width: 500px;
+    align-content: center;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.submit {
+    align-content: center;
+    background-color: rgba(0, 0, 255, 0.599);
+    border: 2px solid rgba(0, 0, 0, 0.815);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 1.4rem;
+    font-weight: 600;
+    height: auto;
+
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.submit:hover {
+    background-color: rgba(0, 0, 0, 0.714);
+    transition: ease-in-out 0.3s;
+}
+
+.select {
+    height: 2.5rem;
+    border: 3px solid rgba(22, 21, 21, 0.548);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.twoButton {
+    display: flex;
+
+    gap: 250px;
+}
+
+@media (max-width: 1480px) {
+    .input {
+        width: 400px;
+    }
+
+    .signup {
+        width: 350px;
+    }
+    .twoButton {
+        gap: 150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .input {
+        width: 350px;
+    }
+
+    .container {
+        width: 80%;
+        text-align: center;
+    }
+
+    .form {
+        width: 65%;
+    }
+
+    .signup {
+        width: 300px;
+    }
+    .twoButton {
+        gap: 120px;
+        
+    }
+    .submit{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .input {
+        width: 270px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .label {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .form {
+        width: 75%;
+    }
+
+    .signup {
+        width: 280px;
+    }
+    .twoButton {
+        gap:50px;
+    }
+}

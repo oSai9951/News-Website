@@ -1,0 +1,89 @@
+.upperDiv{
+   position: relative;
+   height: 800px; 
+   width: 100%;
+   background: linear-gradient(to top,white, rgb(206, 169, 240), white); 
+z-index: -2;
+
+}
+
+.lowerDiv{
+    height: 600px; 
+    background: linear-gradient(to bottom,white, rgb(247, 232, 215), rgb(228, 211, 191)); 
+}
+
+.mainContent{
+position: absolute;
+display: flex;
+gap: 30px;
+justify-content: space-evenly;
+align-items: baseline;
+flex-wrap: wrap;
+width: 85%;
+z-index: 10;
+transform: translate(120px, -600px );
+overflow-x: hidden;
+ 
+}
+
+
+.categoryImg {
+    max-width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+
+.categoryDiv{
+      text-align: center;
+}
+.categoryDiv h3 {
+    font-family: "BioRhyme", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+  text-decoration:underline;
+}
+
+.categoryDiv p{
+    width: 350px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.categoryDiv button{
+    margin:10px auto 0 auto;
+    font-size: 20px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgb(99, 98, 98);
+    border-radius: 4px;
+}
+
+.lowerDiv{
+    background-color: rgb(235, 201, 156);
+   
+}
+
+@media  (max-width: 900px){
+    .mainContent{
+        height: 2255px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        transform: translate(50px, -1100px);
+ 
+       
+    }
+    .categoryImg{
+        width: 300px;
+    }
+    .upperDiv{
+      height: 1200px;
+     
+    }
+    .lowerDiv{
+        height: 1200px;
+        
+      }
+    
+}
+

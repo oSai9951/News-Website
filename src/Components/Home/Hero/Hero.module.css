@@ -1,0 +1,92 @@
+
+
+.firstDiv{
+    width: 60%;
+    margin: 0 auto;
+ 
+
+ display: flex;
+
+}
+.heroImage{
+    width: 500px;
+border-top-left-radius: 40px;
+}
+
+.heading{
+    font-family: "BioRhyme", serif;
+    font-size: 45px;
+    padding: 50px;
+ line-height: 50px;
+ 
+}
+.headerDiv{
+       display: flex;
+       flex-direction: column;
+       background-color: rgba(248, 178, 178, 0.521);
+border-bottom-right-radius: 40px;
+color: rgb(31, 31, 30);
+width: 500px;
+    align-items: center;
+    
+}
+
+.service{
+    font-size: 20px;
+padding: 10px;
+border-radius: 10px;
+background-color: rgba(107, 93, 197, 0.995);
+cursor: pointer;
+}
+
+@media (max-width: 1250px){
+    .heroImage{
+        width: 400px;
+    }
+    .heading{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .headerDiv{
+        width: 400px;
+    }
+}
+
+@media (max-width: 950px){
+    .heroImage{
+        width: 300px;
+    }
+    .heading{
+        font-size: 40px;
+        line-height: 40px;
+    }
+     .headerDiv{
+        width: 400px;
+    }
+}
+
+@media (max-width: 950px){
+    .firstDiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroImage{
+        width: 500px;
+        height: 650px;
+        border-radius: 20px;
+    }
+    .headerDiv{
+
+        width: 500px;
+        height: 400px;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .service{
+        font-size: 20px;
+    }
+}
